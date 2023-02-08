@@ -7,3 +7,4 @@ transformers==4.25.1
 sumy==0.11.0
 git+https://github.com/openai/whisper.git
 ffprobe
+ffmpeg
