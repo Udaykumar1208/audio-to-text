@@ -3,7 +3,7 @@ import whisper
 import streamlit  as st
 from pydub import AudioSegment
 import openai
-from dotenv import load_dotenv
+
 from googletrans import Translator
 from keybert import KeyBERT
 from transformers import pipeline
@@ -13,7 +13,7 @@ from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lex_rank import LexRankSummarizer
 
-load_dotenv()
+
 
 import googletrans
 
